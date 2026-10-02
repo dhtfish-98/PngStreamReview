@@ -1,0 +1,53 @@
+{
+  "source_repo": "pnggroup/pngcheck",
+  "source_commit": "bd33ad6490269df07cac81e5305f4ebf56c2b637",
+  "scope": "Noninterlaced PNG signature, chunk boundaries/type bits/CRC, singleton and critical order, IHDR combinations, PLTE/tRNS constraints, bounded zlib stream length and scanline filter bytes.",
+  "license": "MIT",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1130,
+      "lines": 20,
+      "sha256": "137951967c258cdbed01d0af67317236244ef6c750bef9e5a7020098e53b1445",
+      "url": "https://raw.githubusercontent.com/pnggroup/pngcheck/bd33ad6490269df07cac81e5305f4ebf56c2b637/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2221,
+      "lines": 50,
+      "sha256": "c413fa9a4259ba96fd2afeed68d0db987c2bef3eedb7f44a0fe274c7772d16d7",
+      "url": "https://raw.githubusercontent.com/pnggroup/pngcheck/bd33ad6490269df07cac81e5305f4ebf56c2b637/README.md"
+    },
+    {
+      "path": "pngcheck.c",
+      "bytes": 202827,
+      "lines": 5749,
+      "sha256": "728e82da1e26bcd2142bec2162e908b39dd4b3bbcf6145e2af264114be625dd2",
+      "url": "https://raw.githubusercontent.com/pnggroup/pngcheck/bd33ad6490269df07cac81e5305f4ebf56c2b637/pngcheck.c"
+    }
+  ],
+  "new_runtime_files": [
+    "src/pngstreamreview/__init__.py",
+    "src/pngstreamreview/__main__.py",
+    "src/pngstreamreview/core.py"
+  ],
+  "implementation_files": [
+    {
+      "path": "src/pngstreamreview/__init__.py",
+      "sha256": "38582950d26e35b221eb5e109dc3283861d1300bcd8b1a0bef233bc8ff76a761",
+      "bytes": 49
+    },
+    {
+      "path": "src/pngstreamreview/__main__.py",
+      "sha256": "889f673c2145e28095264339dbb3be024859a0bd7242435c479850567be2fd49",
+      "bytes": 49
+    },
+    {
+      "path": "src/pngstreamreview/core.py",
+      "sha256": "977ac83bd85e76c27b4289c8fc38a552a8e543160c676dd45b7ecab6661fe0dd",
+      "bytes": 7745
+    }
+  ],
+  "source_review": "Upstream pngcheck supports broader PNG/MNG/JNG/image formats and verbose metadata/extraction options. The new implementation supports the stated noninterlaced PNG validation profile only.",
+  "review_boundary": "Complete new runtime review; selected upstream format/entry-point review. Unselected upstream platform code is not claimed audited or rewritten."
+}

@@ -1,0 +1,14 @@
+{
+  "project": "PngStreamReview",
+  "status": "PASS",
+  "test_count": 18,
+  "wheel": "pngstreamreview-1.0.0-py3-none-any.whl",
+  "wheel_sha256": "3d07e3118823d2f99807001e98e60994611a95c732b6233447ba5f125985f263",
+  "verification": "Local supported and malformed input tests, wheel build, separate install, imported package origin and CLI checks",
+  "reproduction": [
+    "python -m pip install .",
+    "python -m unittest discover -s tests -v",
+    "python -m pip wheel --no-deps --wheel-dir artifacts ."
+  ],
+  "limits": "Point-in-time engineering evidence only; CVP qualification and approval remain OPEN"
+}
