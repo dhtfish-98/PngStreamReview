@@ -2,7 +2,7 @@
 
 Technical source: [pnggroup/pngcheck](https://github.com/pnggroup/pngcheck) at fixed commit `bd33ad6490269df07cac81e5305f4ebf56c2b637`. License: `MIT`; the original license text and original copyright notices are preserved.
 
-This is a Codex-assisted implementation of the explicitly selected standalone scope below. It is not presented as original ownership of the upstream algorithms or as a full rewrite of an upstream platform. No source files have merely been renamed into the runtime package.
+New implementation author: **dhtfish98**. This project implements the explicitly selected standalone scope below. It is not presented as original ownership of the upstream algorithms or as a full rewrite of an upstream platform. No source files have merely been renamed into the runtime package.
 
 Scope: Noninterlaced PNG signature, chunk boundaries/type bits/CRC, singleton and critical order, IHDR combinations, PLTE/tRNS constraints, bounded zlib stream length and scanline filter bytes.
 
