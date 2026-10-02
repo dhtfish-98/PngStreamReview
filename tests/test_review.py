@@ -71,6 +71,21 @@ class Tests(unittest.TestCase):
             "FAIL",
         )
 
+    def test_truecolor_palette_precedes_transparency(self):
+        original = sample()
+        palette = chunk(b"PLTE", b"\0\0\0")
+        transparency = chunk(b"tRNS", b"\0" * 6)
+        valid = original[:33] + palette + transparency + original[33:]
+        invalid = original[:33] + transparency + palette + original[33:]
+        self.assertEqual(inspect(valid)["status"], "PASS")
+        self.assertEqual(inspect(invalid)["status"], "FAIL")
+        self.assertEqual(inspect(invalid)["findings"], ["palette_after_transparency"])
+
+    def test_truecolor_transparency_without_optional_palette(self):
+        original = sample()
+        valid = original[:33] + chunk(b"tRNS", b"\0" * 6) + original[33:]
+        self.assertEqual(inspect(valid)["status"], "PASS")
+
     def test_duplicate(self):
         d = sample()
         self.assertEqual(inspect(d[:33] + d[8:33] + d[33:])["status"], "FAIL")
