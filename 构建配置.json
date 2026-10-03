@@ -1,0 +1,35 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "PngStreamReview",
+  "author": "dhtfish98",
+  "kind": "python",
+  "base_public_commit": "8ec12287c3e9240cd599d53dfb0b69878ecf9b6d",
+  "restored_inputs": [
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "137951967c258cdbed01d0af67317236244ef6c750bef9e5a7020098e53b1445"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "4739aa912e306d728849993b1c37b38b1c75e389768a3d9d9fd7a59211a63960"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "d07e85d05561f857e0c76f9fa30c1e3bc12241167b1a1c81a3249a522f56f9af"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "005413481be0135234699c9e673b54c2fdcb7142660adf80a693bbe727e16b11"
+    },
+    {
+      "original": "examples/README.md",
+      "stored": "项目文档/examples/README.md",
+      "sha256": "0579094b4036f4253d628db3e1200f2db30a41336342af9dedeeeae3ee97965c"
+    }
+  ],
+  "platform_entries": []
+}
