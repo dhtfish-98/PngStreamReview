@@ -31,4 +31,4 @@ PASS only describes the recorded checks. It does not prove real-world safety, hi
 
 ## Provenance and validation
 
-See [ORIGIN.md](<ORIGIN.md>), [SOURCE_MANIFEST.json](<../SOURCE_MANIFEST.json>), [VALIDATION.md](<VALIDATION.md>) and the preserved [LICENSE](<LICENSE>).
+See [ORIGIN.md](<ORIGIN.md>), [SOURCE_MANIFEST.json](<SOURCE_MANIFEST.json>), [VALIDATION.md](<VALIDATION.md>) and the preserved [LICENSE](<LICENSE>).
