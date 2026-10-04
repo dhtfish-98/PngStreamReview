@@ -4,6 +4,7 @@ __pycache__/
 build/
 dist/
 artifacts/isolated_install/
+/artifacts/*.whl
 *.egg-info/
 
 # All generated build outputs and staging are local.
