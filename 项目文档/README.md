@@ -2,7 +2,7 @@
 
 # PngStreamReview
 
-New implementation author: **dhtfish98**. Current package version: **1.0.2**.
+New implementation author: **dhtfish98**. Current package version: **1.0.3**.
 
 Checks file integrity before an evidence image reaches a decoder, while reporting unsupported image layouts OPEN. CRC and syntax do not establish image authenticity.
 
